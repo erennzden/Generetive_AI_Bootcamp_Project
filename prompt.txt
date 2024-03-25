@@ -1,0 +1,112 @@
+basit bir portföy HTML şablonu. Bu şablon, başlık (header), altlık (footer) ve içerik (article) kısmını içerir. Örnek çalışmalarımızı görseller ve sütunlar kullanılarak yapıladırılsın.  sayfa responsive olsun. fotoğrafların yanında metin yazabileceğim bir box ekle. 'hakkında' kısmı ekle ve ortala. ayrıca menu ekle.
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portföy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        article {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .portfolio-item {
+            width: 300px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .portfolio-item .description {
+            margin-top: 10px;
+        }
+        .about {
+            text-align: center;
+            padding: 20px;
+        }
+        .menu {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portföy</h1>
+        <nav class="menu">
+            <a href="#">Anasayfa</a>
+            <a href="#">Hakkında</a>
+            <a href="#">Portföy</a>
+            <a href="#">İletişim</a>
+        </nav>
+    </header>
+    
+    <article>
+        <div class="portfolio-item">
+            <img src="example1.jpg" alt="Example 1">
+            <div class="description">
+                <h2>Örnek Çalışma 1</h2>
+                <p>Bu çalışma ile ilgili birkaç cümlelik açıklama...</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="example2.jpg" alt="Example 2">
+            <div class="description">
+                <h2>Örnek Çalışma 2</h2>
+                <p>Bu çalışma ile ilgili birkaç cümlelik açıklama...</p>
+            </div>
+        </div>
+        <!-- Diğer örnek çalışmaları buraya ekleyebilirsiniz -->
+    </article>
+    
+    <div class="about">
+        <h2>Hakkında</h2>
+        <p>Buraya hakkınızda bilgi verebilirsiniz.</p>
+    </div>
+    
+    <footer>
+        <p>© 2024 Portföyüm - Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
+bu koddaki boş yerleri bill gates'in cv'sine göre doldur.
+
+
+
+
+iletişim'e basınca https://www.linkedin.com/in/williamhgates/recent-activity/all/ adresine gitsin. hakkındaya  basınca https://tr.wikipedia.org/wiki/Bill_Gates adresine gitsin.  portfolyo'ya basınca da  https://stockcircle.com/portfolio/bill-gates adresine gitsin. 
+
+
+
+
+Yardım kuruluşunuz için bir tasarım oluşturdum. Bu tasarım, yardımseverliğinizi ve kuruluşunuzun misyonunu yansıtacak şekilde, sıcak ve davetkar renklerle ve insanların bir araya gelip destek olduğu bir temayla hazırlandı. Umarım beğenirsiniz ve kuruluşunuz için faydalı olur. Tasarımınızı görmek için lütfen bir sonraki mesajıma bakın.
+
+IT sektöründe bir şirket kurucusuyum. Beyaz saçlı, yaşlı olan, dikdörtgen gözlülklü zengin bir erkek çiz.
